@@ -1,0 +1,142 @@
+.mainbody
+{
+    background-color: black;
+    height: 700px;
+    width: 350px;
+    margin: auto;
+    border-radius: 3%;
+}
+
+
+#panou{
+    background-color: gray;
+    height: 250px;
+    width: 350px;
+    border-radius: 3%;
+    text-align: right;
+    font-size: 100px;
+}
+
+#ac
+{
+    background-color: green;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 30px;
+    border-radius: 50%;
+    border: 0px;
+    
+}
+
+#ac:hover
+{
+    background-color: greenyellow;
+}
+
+#procent
+{
+    background-color: blue;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 30px;
+    border-radius: 50%;
+    border: 0px;
+}
+
+#procent:hover{
+    background-color: lightskyblue;
+}
+
+#paranteze
+{
+    background-color: blue;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 30px;
+    border-radius: 50%;
+    border: 0px;
+}
+
+#paranteze:hover{
+    background-color: lightskyblue;
+}
+
+#impartire
+{
+    background-color: blue;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 30px;
+    border-radius: 50%;
+    border: 0px;
+}
+
+#impartire:hover{
+    background-color: lightskyblue;
+}
+
+button
+{
+    background-color: gray;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 30px;
+    border-radius: 50%;
+    border: 0px;
+}
+
+#inmultire
+{
+    background-color: blue;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 30px;
+    border-radius: 50%;
+    border: 0px;
+}
+
+#inmultire:hover{
+    background-color: lightskyblue;
+}
+
+#scadere
+{
+    background-color: blue;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 30px;
+    border-radius: 50%;
+    border: 0px;
+}
+
+#scadere:hover{
+    background-color: lightskyblue;
+}
+
+#adunare
+{
+    background-color: blue;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 30px;
+    border-radius: 50%;
+    border: 0px;
+}
+
+#adunare:hover{
+    background-color: lightskyblue;
+}
+
+#egal
+{
+    background-color: orange;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 30px;
+    border-radius: 50%;
+    border: 0px;
+}
+
+#egal:hover{
+    background-color: orangered;
+}
