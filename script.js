@@ -24,36 +24,37 @@ clear.addEventListener('click', function ()
 
 impartire.addEventListener('click', function()
 {
-    if(panou.innerHTML.length > 0)
+    if(panou.innerHTML.length > 0 && panou.innerHTML[panou.innerHTML.length - 1] != '*' && panou.innerHTML[panou.innerHTML.length - 1] != '-' && panou.innerHTML[panou.innerHTML.length - 1] != '/' && panou.innerHTML[panou.innerHTML.length - 1] != '%' && panou.innerHTML[panou.innerHTML.length - 1] != '.' && panou.innerHTML[panou.innerHTML.length - 1] != '+')
         panou.innerHTML += "/"
 });
 
 procent.addEventListener('click', function()
 {
-    if(panou.innerHTML.length > 0)
+    if(panou.innerHTML.length > 0 && panou.innerHTML[panou.innerHTML.length - 1] != '*' && panou.innerHTML[panou.innerHTML.length - 1] != '-' && panou.innerHTML[panou.innerHTML.length - 1] != '/' && panou.innerHTML[panou.innerHTML.length - 1] != '%' && panou.innerHTML[panou.innerHTML.length - 1] != '.' && panou.innerHTML[panou.innerHTML.length - 1] != '+')
         panou.innerHTML += '%';
 });
 
 inmultire.addEventListener('click', function()
 {
-    if(panou.innerHTML.length > 0)
+    if(panou.innerHTML.length > 0 && panou.innerHTML[panou.innerHTML.length - 1] != '*' && panou.innerHTML[panou.innerHTML.length - 1] != '-' && panou.innerHTML[panou.innerHTML.length - 1] != '/' && panou.innerHTML[panou.innerHTML.length - 1] != '%' && panou.innerHTML[panou.innerHTML.length - 1] != '.' && panou.innerHTML[panou.innerHTML.length - 1] != '+')
         panou.innerHTML += '*';
 });
 
 adunare.addEventListener('click', function()
 {
-    if(panou.innerHTML.length > 0)
+    if(panou.innerHTML.length > 0 && panou.innerHTML[panou.innerHTML.length - 1] != '*' && panou.innerHTML[panou.innerHTML.length - 1] != '-' && panou.innerHTML[panou.innerHTML.length - 1] != '/' && panou.innerHTML[panou.innerHTML.length - 1] != '%' && panou.innerHTML[panou.innerHTML.length - 1] != '.' && panou.innerHTML[panou.innerHTML.length - 1] != '+')
         panou.innerHTML += '+';
 });
 
 scadere.addEventListener('click', function()
 {
+    if(panou.innerHTML[panou.innerHTML.length - 1] != '*' && panou.innerHTML[panou.innerHTML.length - 1] != '-' && panou.innerHTML[panou.innerHTML.length - 1] != '/' && panou.innerHTML[panou.innerHTML.length - 1] != '%' && panou.innerHTML[panou.innerHTML.length - 1] != '.' && panou.innerHTML[panou.innerHTML.length - 1] != '+')
         panou.innerHTML += '-';
 });
 
 virgula.addEventListener('click', function()
 {
-    if(panou.innerHTML.length > 0)
+    if(panou.innerHTML.length > 0 && panou.innerHTML[panou.innerHTML.length - 1] != '*' && panou.innerHTML[panou.innerHTML.length - 1] != '-' && panou.innerHTML[panou.innerHTML.length - 1] != '/' && panou.innerHTML[panou.innerHTML.length - 1] != '%' && panou.innerHTML[panou.innerHTML.length - 1] != '.' && panou.innerHTML[panou.innerHTML.length - 1] != '+')
         panou.innerHTML += '.';
 });
 
@@ -64,3 +65,8 @@ egal.addEventListener('click', function()
     ec = ec.toFixed(3);
     panou.innerHTML = ec;
 })
+
+undo.addEventListener('click', function() 
+{
+    panou.innerHTML = panou.innerHTML.slice(0, -1);
+});
